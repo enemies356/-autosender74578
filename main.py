@@ -5,7 +5,7 @@ main.py — точка входа.
 import asyncio
 import logging
 
-from pyrogram.idle import idle
+from pyrogram  import idle
 
 from database.db import init_db
 from services.session_manager import load_all_sessions
